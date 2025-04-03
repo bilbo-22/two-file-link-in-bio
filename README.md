@@ -10,11 +10,11 @@ See the template in action with two different styles:
 
 **1. Default Gradient Theme:**
 
-![Default Gradient Theme Screenshot](https://i.ibb.co/gFMhKH1/Default-Gradient-Theme-Screenshot.png)
+![Default Gradient Theme Screenshot](https://i.ibb.co/bRgD9qhT/link-in-bio.png)
 
-**2. Dark Tech Theme:**
+**2. Or You Can Go Dark:**
 
-![Dark Tech Theme Screenshot](https://i.ibb.co/yF5rqQ0/Dark-Tech-Theme-Screenshot.png)
+![Dark Tech Theme Screenshot](https://i.ibb.co/HTYjqH7j/link-in-bio-2.png)
 
 ## Features
 
