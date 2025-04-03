@@ -9,10 +9,12 @@ This template is easily customizable via CSS variables, allowing for different t
 See the template in action with two different styles:
 
 **1. Default Gradient Theme:**
-![Default Gradient Theme Screenshot](https://ibb.co/gFMhKH1N)
 
-**2. You Can Also Go with Dark Theme:**
-![Dark Tech Theme Screenshot](https://ibb.co/yF5rqQ0r)
+![Default Gradient Theme Screenshot](https://i.ibb.co/gFMhKH1/Default-Gradient-Theme-Screenshot.png)
+
+**2. Dark Tech Theme:**
+
+![Dark Tech Theme Screenshot](https://i.ibb.co/yF5rqQ0/Dark-Tech-Theme-Screenshot.png)
 
 ## Features
 
@@ -28,12 +30,13 @@ See the template in action with two different styles:
 ## Getting Started
 
 1.  **Download/Clone:** Get the files from this repository:
+
     ```bash
     git clone https://github.com/your-username/your-repo-name.git
     cd your-repo-name
     ```
-    Or download the ZIP file. You'll primarily work with `index.html` and `style.css`.
 
+    Or download the ZIP file. You'll primarily work with `index.html` and `style.css`.
 2.  **Open Locally:** Open the `index.html` file in your web browser to preview the page.
 
 ## Customization
@@ -47,17 +50,20 @@ Customizing the template involves editing the HTML for content and the CSS for a
 *   **Profile Name:** Edit the text inside the `<h1>` tag.
 *   **Profile Bio:** Edit the text inside the `<p>` tag.
 *   **Links:**
+
     *   Edit the `href="..."` for each `<a>` tag within the link list (`<ul class="links">`).
     *   Change the link text.
     *   Add or remove `<li>...</li>` items.
 *   **Social Media Icons:**
+
     *   Edit the `href="..."` for each social link `<a>` tag in the footer (`<footer class="socials">`).
     *   Ensure the Font Awesome link is in the `<head>` if using icons.
     *   Add/remove icons using Font Awesome classes (e.g., `<i class="fab fa-github"></i>`).
 
 ### 2. Appearance (`style.css`)
 
-*   **Easy Themeing:** The easiest way to change the look is by modifying the CSS variables within the `:root { ... }` block at the top of `style.css`. *You can create completely different themes (like the demos above) just by changing these variables.*
+*   **Easy Themeing:** The easiest way to change the look is by modifying the CSS variables within the `:root { ... }` block at the top of `style.css`. _You can create completely different themes (like the demos above) just by changing these variables._
+
     *   `--background-start`, `--background-end`: Gradient background colors.
     *   `--card-background`: Main card background color and transparency.
     *   `--text-color`, `--heading-color`: Text colors.
@@ -81,5 +87,4 @@ This project is licensed under the MIT License.
 
 ---
 
-*Built simply, for easy sharing. BY Bilbo-22 and Gemini*
-
+_Built simply, for easy sharing. BY Bilbo and Gemini._
