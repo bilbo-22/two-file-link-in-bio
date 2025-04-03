@@ -1,0 +1,151 @@
+/* --- ☆ CUSTOMIZATION VARIABLES --- */
+:root {
+    --background-start: #6a11cb; /* Gradient start color */
+    --background-end: #2575fc;   /* Gradient end color */
+    --card-background: rgba(255, 255, 255, 0.95); /* Card background */
+    --text-color: #333;
+    --heading-color: #111;
+    --button-background: #4a4a4a; /* Button background */
+    --button-text-color: #ffffff;
+    --button-hover-background: #333333; /* Button hover */
+    --social-icon-color: #555;
+    --social-icon-hover-color: #000;
+    --font-family: 'Inter', sans-serif; /* Use Google Font */
+    --card-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    --card-border-radius: 15px;
+    --button-border-radius: 8px;
+    --profile-pic-size: 150px;
+    --profile-pic-border: 4px solid #fff;
+}
+/* --- End Customization --- */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background: linear-gradient(135deg, var(--background-start), var(--background-end));
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Add padding for smaller screens */
+}
+
+.container {
+    background: var(--card-background);
+    padding: 30px 40px;
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--card-shadow);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Optional: Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Subtle border */
+}
+
+/* Profile Section */
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile-picture {
+    width: var(--profile-pic-size);
+    height: var(--profile-pic-size);
+    border-radius: 50%;
+    object-fit: cover;
+    border: var(--profile-pic-border);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.profile-name {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 5px;
+}
+
+.profile-bio {
+    font-size: 1em;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+/* Links Section */
+.links ul {
+    list-style: none;
+}
+
+.links li {
+    margin-bottom: 15px;
+}
+
+.link-button {
+    display: block;
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: var(--button-border-radius);
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.link-button:hover {
+    background-color: var(--button-hover-background);
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Social Icons Section */
+.socials {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1); /* Separator line */
+}
+
+.socials a {
+    color: var(--social-icon-color);
+    font-size: 1.5em; /* Adjust icon size */
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-block; /* Allows transform */
+}
+
+.socials a:hover {
+    color: var(--social-icon-hover-color);
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+    .container {
+        padding: 25px 20px;
+    }
+    .profile-name {
+        font-size: 1.5em;
+    }
+    .profile-bio {
+        font-size: 0.9em;
+    }
+    .link-button {
+        padding: 12px 15px;
+        font-size: 1em;
+    }
+    .socials a {
+        font-size: 1.3em;
+        margin: 0 8px;
+    }
+    :root {
+        --profile-pic-size: 80px;
+    }
+}
